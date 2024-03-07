@@ -1,77 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="view" content="width=device-width, initial-scale=1.0">
-    <title>Image Links</title>
-    /* Basic styles for layout */
-    <style>
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-        }
-        .grid img {
-            width: 100%;
-            height: auto;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-        nav a, .menu a {
-            text-decoration: none;
-            color: blue;
-        }
-    </style>
-</head>
-<body>
-    <!-- Navigation Menu -->
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#menu">Menu</a></li>
-        </ul>
-    </nav>
-
-    <!-- Home Section -->
-    <section id="home">
-        <h1>Welcome to Our Webpage</h1>
-        <p>This is a website showcasing different topics like technology, nature, and food.</p>
-        <a href="https://placeholder.com/technology">
-            <img src="https://via.placeholder.com/150" alt="Technology Image">
-        </a>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="gallery">
-        <h2>Nature Gallery</h2>
-        <div class="grid">
-            <a href="https://placeholder.com/nature1">
-                <img src="https://via.placeholder.com/150" alt="Nature Image 1">
+    <head>
+        <meta charset="utf-8">
+        <meta name="view" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#Menu">Menu</a></li>
+            </ul>
+        </nav>
+        <!-- Home Section -->
+        <section id="Home">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Welcome to my portfolio website. Here you can find information about me and the projects I have worked on. Discover various images related to technology, nature, and food in our Gallery and Menu sections.</p>
+            <!-- Adding a technology related image -->
+            <a href="https://example.com/technology" target="_blank">
+                <img src="https://via.placeholder.com/150?text=Technology" alt="Technology Image" style="width:150px;height:auto;">
             </a>
-            <a href="https://placeholder.com/nature2">
-                <img src="https://via.placeholder.com/150" alt="Nature Image 2">
-            </a>
-            <a href="https://placeholder.com/nature3">
-                <img src="https://via.placeholder.com/150" alt="Nature Image 3">
-            </a>
-        </div>
-    </section>
-
-    <!-- Menu Section -->
-    <section id="menu">
-        <h2>Menu Items</h2>
-        <ul class="menu">
-            <li><a href="https://placeholder.com/food1">Food Item 1 - <img src="https://via.placeholder.com/50" alt="Food Image 1"></a></li>
-            <li><a href="https://placeholder.com/food2">Food Item 2 - <img src="https://via.placeholder.com/50" alt="Food Image 2"></a></li>
-            <li><a href="https://placeholder.com/food3">Food Item 3 - <img src="https://via.placeholder.com/50" alt="Food Image 3"></a></li>
-        </ul>
-    </section>
-</body>
+        </section>
+        <!-- About Section -->
+        <section id="About">
+            <h2>About Me</h2>
+            <p>I am a software developer with a passion for building web applications. I have experience with HTML, CSS, JavaScript, Python, and various backend technologies.</p>
+        </section>
+        <!-- Projects Section -->
+        <section id="Projects">
+            <h2>My Projects</h2>
+            <p>Below is a list of projects I have worked on:</p>
+            <ul>
+                <li>Project 1: A web application for task management.</li>
+                <li>Project 2: An interactive portfolio website.</li>
+                <li>Project 3: A browser-based game.</li>
+            </ul>
+        </section>
+        <!-- Gallery Section -->
+        <section id="Gallery">
+            <h2>Nature Gallery</h2>
+            <p>Explore the beauty of nature through our collection of images.</p>
+            <!-- Displaying nature related images in a simple list -->
+            <a href="https://example.com/nature1" target="_blank"><img src="https://via.placeholder.com/150?text=Nature1" alt="Nature Image 1" style="width:150px;height:auto;"></a>
+            <a href="https://example.com/nature2" target="_blank"><img src="https://via.placeholder.com/150?text=Nature2" alt="Nature Image 2" style="width:150px;height:auto;"></a>
+            <a href="https://example.com/nature3" target="_blank"><img src="https://via.placeholder.com/150?text=Nature3" alt="Nature Image 3" style="width:150px;height:auto;"></a>
+        </section>
+        <!-- Menu Section -->
+        <section id="Menu">
+            <h2>Menu</h2>
+            <p>Discover our delicious food items, each linked to a mouth-watering image.</p>
+            <!-- Listing food items with linked images -->
+            <a href="https://example.com/food1" target="_blank"><img src="https://via.placeholder.com/150?text=Pizza" alt="Pizza" style="width:150px;height:auto;">Pizza</a>
+            <a href="https://example.com/food2" target="_blank"><img src="https://via.placeholder.com/150?text=Burger" alt="Burger" style="width:150px;height:auto;">Burger</a>
+            <a href="https://example.com/food3" target="_blank"><img src="https://via.placeholder.com/150?text=Sushi" alt="Sushi" style="width:150px;height:auto;">Sushi</a>
+        </section>
+    </body>
 </html>

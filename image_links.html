@@ -1,63 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="view" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <!-- Navigation Menu -->
-        <nav>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Gallery">Gallery</a></li>
-                <li><a href="#Menu">Menu</a></li>
-            </ul>
-        </nav>
-        <!-- Home Section -->
-        <section id="Home">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Welcome to my portfolio website. Here you can find information about me and the projects I have worked on. Discover various images related to technology, nature, and food in our Gallery and Menu sections.</p>
-            <!-- Adding a technology related image -->
-            <a href="https://example.com/technology" target="_blank">
-                <img src="https://via.placeholder.com/150?text=Technology" alt="Technology Image" style="width:150px;height:auto;">
-            </a>
-        </section>
-        <!-- About Section -->
-        <section id="About">
-            <h2>About Me</h2>
-            <p>I am a software developer with a passion for building web applications. I have experience with HTML, CSS, JavaScript, Python, and various backend technologies.</p>
-        </section>
-        <!-- Projects Section -->
-        <section id="Projects">
-            <h2>My Projects</h2>
-            <p>Below is a list of projects I have worked on:</p>
-            <ul>
-                <li>Project 1: A web application for task management.</li>
-                <li>Project 2: An interactive portfolio website.</li>
-                <li>Project 3: A browser-based game.</li>
-            </ul>
-        </section>
-        <!-- Gallery Section -->
-        <section id="Gallery">
-            <h2>Nature Gallery</h2>
-            <p>Explore the beauty of nature through our collection of images.</p>
-            <!-- Displaying nature related images in a simple list -->
-            <a href="https://example.com/nature1" target="_blank"><img src="https://via.placeholder.com/150?text=Nature1" alt="Nature Image 1" style="width:150px;height:auto;"></a>
-            <a href="https://example.com/nature2" target="_blank"><img src="https://via.placeholder.com/150?text=Nature2" alt="Nature Image 2" style="width:150px;height:auto;"></a>
-            <a href="https://example.com/nature3" target="_blank"><img src="https://via.placeholder.com/150?text=Nature3" alt="Nature Image 3" style="width:150px;height:auto;"></a>
-        </section>
-        <!-- Menu Section -->
-        <section id="Menu">
-            <h2>Menu</h2>
-            <p>Discover our delicious food items, each linked to a mouth-watering image.</p>
-            <!-- Listing food items with linked images -->
-            <a href="https://example.com/food1" target="_blank"><img src="https://via.placeholder.com/150?text=Pizza" alt="Pizza" style="width:150px;height:auto;">Pizza</a>
-            <a href="https://example.com/food2" target="_blank"><img src="https://via.placeholder.com/150?text=Burger" alt="Burger" style="width:150px;height:auto;">Burger</a>
-            <a href="https://example.com/food3" target="_blank"><img src="https://via.placeholder.com/150?text=Sushi" alt="Sushi" style="width:150px;height:auto;">Sushi</a>
-        </section>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* Basic Reset */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        /* Navigation Styles */
+        nav ul {
+            list-style: none;
+            background-color: #333;
+            text-align: center;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        /* List Styles */
+        ul {
+            list-style: inside square;
+        }
+
+        li {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>Home</h1>
+        <p>Welcome to my portfolio website. Here, you can find information about me and the projects I've worked on.</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>My name is Magdalene Ekeya, I'm a web developer with a passion for building engaging and user-friendly websites and applications.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Below is a list of projects I've worked on:</p>
+        <ul>
+            <li>Project 1 - A web application for task management</li>
+            <li>Project 2 - An interactive portfolio website</li>
+            <li>Project 3 - A mobile app for tracking daily activities</li>
+        </ul>
+    </section>
+</body>
 </html>
